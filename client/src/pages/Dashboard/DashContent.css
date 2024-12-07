@@ -1,0 +1,46 @@
+.overview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  text-align: left;
+}
+
+.overviewTitle{
+  font-size: 16px;
+  text-align: left;
+}
+
+.card3 {
+  width: 300px;
+  height: 220px;
+  margin: 10px 10px 10px 10px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card6-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card6 {
+  width: calc(50% - 10px);
+  height: 100px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.card-content h2 {
+  margin-top: 10px;
+}
+
+.card-content svg {
+  margin-bottom: 0px;
+}
+.card6:hover {
+  cursor: pointer;
+}
+

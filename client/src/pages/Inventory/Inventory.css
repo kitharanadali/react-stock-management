@@ -1,0 +1,122 @@
+.full-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inventory-page {
+  width: 100%;
+  height: 90%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardd {
+  width: 968px;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.pageName{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.search-filter input[type="text"] {
+  width: 60%;
+  height: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-filter select {
+  width: 30%;
+  height: 25px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+
+}
+
+.inventorytable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inventorytable th{
+  height: 10px;
+}
+
+.inventorytable th{
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ccc;
+  color: #B5B7C0;
+  font-size: 12px;
+}
+.inventorytable td {
+  padding: 10px;
+  text-align: left; 
+  border: none;
+  font-size: 12px;
+
+}
+
+.inventorytable td img {
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-right: 5px;
+  height: 15px;
+}
+
+.inventorytable td span {
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-left: 5px;
+
+}
+
+
+.note-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.note-buttons button {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #C3817D;
+  color: #fff;
+  cursor: pointer;
+}
+
+.note-buttons button:last-child {
+  background-color: #FF968F;
+}
+
+
+.table-wrapper {
+  max-height: 80%; /* Set a max height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
